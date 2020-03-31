@@ -1,0 +1,65 @@
+{
+  "id": "1699842",
+  "name": "iview-admin",
+  "font_family": "icon",
+  "css_prefix_text": "",
+  "description": "iview",
+  "glyphs": [
+    {
+      "icon_id": "172197",
+      "name": "home",
+      "font_class": "zhangshangcaifuyemianshoujiban243",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "1392248",
+      "name": "地图",
+      "font_class": "71",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "742125",
+      "name": "订单管理",
+      "font_class": "dingdanguanli",
+      "unicode": "ea61",
+      "unicode_decimal": 60001
+    },
+    {
+      "icon_id": "6866628",
+      "name": "用户管理",
+      "font_class": "yonghuguanli",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8508297",
+      "name": "财务管理",
+      "font_class": "caiwuguanli",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "169529",
+      "name": "地图",
+      "font_class": "ditu",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "1328097",
+      "name": "向右箭头",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "11982742",
+      "name": "Home, homepage, menu",
+      "font_class": "Homehomepagemenu1",
+      "unicode": "e9db",
+      "unicode_decimal": 59867
+    }
+  ]
+}
