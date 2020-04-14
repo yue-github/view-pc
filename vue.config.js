@@ -13,7 +13,18 @@ module.exports = {
     hotOnly: true, 
     host: "localhost",
     port: 8080,
-    open: true 
+    open: true,
+    proxy: {
+		  // 配置跨域
+		  '/apis': {
+        target: 'https://coral3.com.com',
+        ws: true,
+        changeOrigin: true,
+        pathRewrite: {
+          '^/apis': ''
+        }
+		  }
+		} 
   },
   // 设置目录别名
   configureWebpack: {

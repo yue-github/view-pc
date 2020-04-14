@@ -1,6 +1,10 @@
 <template>
   <div class="main">
      <div uk-spinner></div>
+     <div @click="toggle">请单击</div>
+     <transition name="fade">
+        <span v-show="show">hello the world!</span>
+     </transition>
   </div>
 </template>
 
@@ -12,6 +16,7 @@ export default {
   data() {
     return {
       data: "hello world!",
+      show:true
     };
   },
   components: {
@@ -21,7 +26,10 @@ export default {
     // 状态管理mutation映射
     ...mapMutations([]),
     // 状态管理actions映射
-    ...mapActions(["TEST"])
+    ...mapActions(["TEST"]),
+    toggle(){
+      this.show = !this.show;
+    }
   },
   mounted() {
     this.TEST();
@@ -30,4 +38,12 @@ export default {
 </script>
 
 <style scoped="scoped">
+.fade-enter-active,.fade-leave-active{
+  transition:opacity .5s;
+  color:blue;
+}
+.fade-enter,.fade-leave-to{
+  opacity:0;
+  color:red;
+}
 </style>
