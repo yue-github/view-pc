@@ -5,6 +5,7 @@
      <transition name="fade">
         <span v-show="show">hello the world!</span>
      </transition>
+     <Test/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@
 // 状态管理映射
 import { mapMutations, mapActions } from "vuex"; 
 import Test from '@@@/test/test';
+import { messageBox } from '@/components/JS/MessageBox';
 export default {
   data() {
     return {
@@ -33,6 +35,17 @@ export default {
   },
   mounted() {
     this.TEST();
+    messageBox({
+      title : '标题',
+      content : 'this is a content111',
+      showHide:true,
+      handleCancel:() => {
+         
+      },
+      handleOk(){
+
+      }
+    });
   }
 };
 </script>
@@ -46,4 +59,7 @@ export default {
   opacity:0;
   color:red;
 }
+ .close{
+   display:none;
+ }
 </style>

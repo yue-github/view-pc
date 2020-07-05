@@ -20,6 +20,9 @@ export default {
 }
 </script>
 
-<style scoped="scoped">
-  
+<style scoped="scoped" lang="scss">
+$test:red;
+  .main{
+    color:$test;
+  }
 </style>

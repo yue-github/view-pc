@@ -31,7 +31,8 @@ module.exports = {
     resolve: {
         alias: {
           '@@': resolve('./src/assets'), // 这里采用两个@符号来代替路径的别名，因为一个@符号已经默认被设置src的路径了，为了不影响原有的功能，这里采用两个@字符
-          '@@@': resolve('./src/views') 
+          '@@@': resolve('./src/views'), 
+          '@': resolve('./src')
         }
     },
     plugins: [
