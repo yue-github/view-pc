@@ -8,7 +8,7 @@
 export default {
   data(){
   	return {
-  		data:'hello world!'
+  		data:'hello world!!'
   	}
   },
   components: {
