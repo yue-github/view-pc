@@ -17,7 +17,7 @@ import { messageBox } from '@/components/JS/MessageBox';
 export default {
   data() {
     return {
-      data: "hello world!",
+      data: "hello world!!",
       show:true
     };
   },
