@@ -8,6 +8,7 @@
 html,
 body,
 ul,
+a,
 li{
   margin: 0;
   padding: 0;
